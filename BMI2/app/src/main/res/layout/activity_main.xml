@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+    android:weightSum="1"
+    android:background="@mipmap/abc">
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:text="hello everyone"
+        android:layout_weight="0.05"
+        android:textSize="20dp"
+        android:textColor="#00009C"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="请输入您的身高：单位（M）"
+    android:textColor="#00000F"
+    android:textSize="20dp"
+    />
+1.<EditText
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/height"
+    android:inputType="numberDecimal"
+    />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="请输入您的体重：单位（KG）"
+    android:textColor="#00000F"
+    android:textSize="20dp"
+    />
+<EditText
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/weight"
+    android:inputType="numberDecimal"
+    />
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="BMI-身体情况"
+    android:textColor="#FF000F"
+    android:id="@+id/BMIbutton"
+   />
+
+    <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/show"
+    android:textColor="#0000F0"
+    android:textSize="30dp"
+        android:layout_weight="0.13" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="健康，是我们一直追求，一直向往的目标！一个人如果拥有了健康的身体，健康的文化，健康的心理，就是非常非常开心、自豪的事情！如果我们做到了这三点，就是减少了我们人生大道的绊脚石，也就是为我们今后的幸福生活铸造了一个良好的基础。"
+        android:textColor="#A68064"
+        android:layout_weight="0.38"
+        />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="good good study"
+        android:textColor="#4D4DFF"
+        />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="day  day  up"
+        android:textColor="#7FFF00"
+        />
+
+</LinearLayout>
